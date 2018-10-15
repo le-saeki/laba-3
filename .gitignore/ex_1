@@ -1,0 +1,12 @@
+#include <iostream>
+using namespace std;
+
+bool f(int a, int b)
+{
+	return a>0 && a%10==b;
+}
+
+int main() {
+    cout<<f(48, 9);
+	return 0;
+}
