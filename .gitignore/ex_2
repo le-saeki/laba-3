@@ -1,0 +1,13 @@
+#include <iostream>
+using namespace std;
+
+bool f(int a, int b)
+{
+	return a==true ^ b==true;
+
+}
+
+int main() {
+    cout<<f(true, false);
+	return 0;
+}
