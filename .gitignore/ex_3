@@ -1,0 +1,13 @@
+#include <iostream>
+using namespace std;
+
+bool f(int a)
+{
+	return ((a>99 && a<1000) ^ (a<-99 && a>-1000)) || a%10==0;
+
+}
+
+int main() {
+
+    cout<<f(-1234);
+	return 0;}
