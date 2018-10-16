@@ -1,0 +1,22 @@
+#include <iostream>
+
+#include <cmath>
+
+using namespace std;
+
+
+bool f( int a)
+
+{
+return (a>9999 && a<10000)^ (a<-9999 && a>-10000) || (a/10000)%100 ;
+
+
+}
+int main()
+{
+
+cout<< f(-22345);
+
+return 0;
+
+}
